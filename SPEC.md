@@ -58,6 +58,7 @@ A native Android app for one user (Addy) that tracks personal and work habits wi
 7. Weekly streak for a week in progress isn't judged until the week ends. The in-progress week shows progress (e.g. 3/5) and doesn't reset the streak early.
 8. Backfilling past days is allowed (editing yesterday or earlier) because streaks are recomputed from the daily log, not stored as running totals.
 9. Android Auto Backup is disabled for the app (`android:allowBackup="false"`) so "stays on this device" holds.
+10. Weekly targets and off days: if off-flagged days leave fewer than 5 possible days in a week, that week is paused (neither extends nor resets) instead of missed. A first week that starts mid-week is never penalised.
 
 ## Tech Stack
 

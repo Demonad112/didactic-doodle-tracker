@@ -4,13 +4,13 @@ Details and acceptance criteria are in `tasks/plan.md`.
 
 ## Phase 1: Foundation and Streak Engine
 - [x] Task 1: Project scaffold and privacy guards
-- [ ] Task 2: Domain model and Sunday–Saturday week math
-- [ ] Task 3: Daily streak engine
-- [ ] Task 4: Weekly streak engine
-- [ ] Task 5: Perfect-work-day evaluation
+- [x] Task 2: Domain model and Sunday–Saturday week math
+- [x] Task 3: Daily streak engine
+- [x] Task 4: Weekly streak engine
+- [x] Task 5: Perfect-work-day evaluation
 
 ### Checkpoint: Engine
-- [ ] Unit tests green and every SPEC.md streak rule tested
+- [x] Unit tests green and every SPEC.md streak rule tested (48 tests)
 - [ ] Human review
 
 ## Phase 2: Persistence and Manual Logging

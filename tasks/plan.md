@@ -38,13 +38,13 @@ T14 manifest guard (needs T1) · T15 on-device pass (needs all)
 ### Phase 1: Foundation and Streak Engine
 
 - [x] **Task 1: Project scaffold and privacy guards**
-- [ ] **Task 2: Domain model and Sunday–Saturday week math**
-- [ ] **Task 3: Daily streak engine (hit / miss / off / pending)**
-- [ ] **Task 4: Weekly streak engine (gym 5/7, work days 5/7)**
-- [ ] **Task 5: Perfect-work-day evaluation with off auto-pass**
+- [x] **Task 2: Domain model and Sunday–Saturday week math**
+- [x] **Task 3: Daily streak engine (hit / miss / off / pending)**
+- [x] **Task 4: Weekly streak engine (gym 5/7, work days 5/7)**
+- [x] **Task 5: Perfect-work-day evaluation with off auto-pass**
 
 ### Checkpoint: Engine
-- [ ] `./gradlew testDebugUnitTest` green, and every streak rule in SPEC.md has a test
+- [x] `./gradlew testDebugUnitTest` green, and every streak rule in SPEC.md has a test
 - [ ] Review with human before persistence work
 
 ### Phase 2: Persistence and Manual Logging
