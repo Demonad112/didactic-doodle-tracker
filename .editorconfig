@@ -1,0 +1,9 @@
+root = true
+
+[*.{kt,kts}]
+indent_size = 4
+max_line_length = 120
+ktlint_function_naming_ignore_when_annotated_with = Composable
+ktlint_standard_no-wildcard-imports = enabled
+# Package name is intentionally com.Demonad.habittracker (user-chosen); only this rule is relaxed.
+ktlint_standard_package-name = disabled

@@ -15,7 +15,7 @@ Native Android app (Kotlin, Compose, Room) with per-habit personal streaks, a co
 - **Auto-filled values are stored beside manual overrides.** Resolution is `override ?: autoFilled ?: 0`. Overrides persist and always win.
 - **Health Connect sits behind an interface.** It is tested against a fake. The real reader comes after the manual flow works, so the app is useful without it.
 - **Vertical slices from Phase 2 on.** Each task ships something visible.
-- **Package name:** `com.example.habittracker` as a placeholder. Rename in Task 1 if you want something else.
+- **Package name:** `com.Demonad.habittracker` (confirmed by the user).
 
 ## Dependency Graph
 
@@ -37,7 +37,7 @@ T14 manifest guard (needs T1) · T15 on-device pass (needs all)
 
 ### Phase 1: Foundation and Streak Engine
 
-- [ ] **Task 1: Project scaffold and privacy guards**
+- [x] **Task 1: Project scaffold and privacy guards**
 - [ ] **Task 2: Domain model and Sunday–Saturday week math**
 - [ ] **Task 3: Daily streak engine (hit / miss / off / pending)**
 - [ ] **Task 4: Weekly streak engine (gym 5/7, work days 5/7)**
@@ -267,5 +267,5 @@ T14 manifest guard (needs T1) · T15 on-device pass (needs all)
 
 ## Open Questions
 
-1. Is `com.example.habittracker` fine as the package name, or do you have one in mind?
+1. ~~Package name~~ Resolved: `com.Demonad.habittracker`.
 2. Can you run emulator or device checks on your machine, or should I limit verification to unit tests plus build and lint here?
